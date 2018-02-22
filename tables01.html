@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<!-- This is a sample table -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Table</title>
+  </head>
+  <body>
+    <h1>This is a sample table</h1>
+    <strong>How does strong look different from h1</strong>
+    <!-- border has to be defined in CSS -->
+    <table border = "1">
+      <caption>A more complex sample table</caption>
+
+      <thead>
+        <!-- rowspans and colspas merge the specified number of cells vertically or horizontally -->
+        <tr>
+          <!-- merge two rows -->
+          <th rowspan = "2">
+            <img src = "Lux Cover Car - edit.jpg" width = "205" height = "167" alt = "Picture of LUX">
+          </th>
+          <!-- merge four columns -->
+          <th colspan="4">
+            <strong>This is our new golf cart, LUX</strong><br>Where do you want to go with her?
+          </th>
+        </tr>
+        <tr>
+          <th>price</th>
+          <th>color</th>
+          <th>feedback</th>
+          <th>contact info</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>LUX</th>
+          <!-- data cell is defined by td -->
+          <td>9000</td>
+          <th>red</th>
+          <th>ohxxx204@umn.edu</th>
+          <td>651410**59</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
